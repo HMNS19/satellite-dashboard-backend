@@ -1,0 +1,30 @@
+# Python virtual environments
+venv/
+trinetra/
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# SQLite database
+telemetry.db
+
+# Data files
+gyro_data.csv
+
+# Environment files
+.env
+.env.*
+!.env.example  # Keep an example if needed
+
+# Logs
+*.log
+
+# Editor & system files
+.DS_Store
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
